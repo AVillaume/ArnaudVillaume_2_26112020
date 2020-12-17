@@ -131,7 +131,7 @@ nav li
 #filtres
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between; 
 	width: 70%;
 	height: 64px;
 }
@@ -154,6 +154,10 @@ nav li
 	padding-left: 20px;
 	padding-right: 20px;
 	font-weight: bold;
+}
+
+h2.fil{
+	margin-right: 20px;
 }
 
 #filtres span {
@@ -235,8 +239,11 @@ nav li
 {
 	background-color: #FFF;
 	width: 65%;
+		
+}
 
-	
+.heber img{
+	width: 220px;
 }
 
 
