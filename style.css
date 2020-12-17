@@ -2,7 +2,7 @@
 {
 	background-color: #FFF;
 	font-family: Raleway, Sans Serif;
-	width: 100%;
+	width: 1280px;
 	margin: 50px;
 
 }
@@ -17,11 +17,6 @@ body h1
 
 main{
 	font-family: Raleway, Sans Serif;
-}
-
-#accroche  {
-
-		
 }
 
 #accroche h1
@@ -244,19 +239,5 @@ h2.fil{
 
 .heber img{
 	width: 220px;
-}
-
-
-	
-}
-
-#activites
-{
-
-}
-
-#bas_de_page
-{
-
 }
 
