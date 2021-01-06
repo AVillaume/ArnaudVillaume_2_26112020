@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(font/Raleway-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(font/Raleway-Regular.ttf);
+}
 #bloc_page {
     
-    max-width: 1250px;
-    margin: 25px;
-    font-family: Raleway, Sans Serif;
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Raleway-Bold', Sans Serif;
 }
 
 header {
@@ -31,6 +41,10 @@ nav li {
     margin-left: 70px;
 }
 
+nav a {
+    font-family: 'Raleway-Regular';
+}
+
 #accroche h1 {
     
     font-size: 19px;
@@ -40,7 +54,8 @@ nav li {
 #accroche p {
     
     font-size: 14px;
-	margin-top: 10px;
+    margin-top: 10px;
+    font-family: 'Raleway-Regular';
 }
 
 #recherche {
@@ -74,8 +89,7 @@ nav li {
 	border: none;
 	flex: 2;
     font-size: 16px;
-    font-family: Raleway, Sans Serif;
-    
+    font-family: 'Raleway-Bold';
 }
 
 .search {
@@ -174,7 +188,8 @@ nav li {
 	display: flex;
 	align-items: center;
 	margin-left: 8px;
-	font-size: 13.5px;
+    font-size: 13.5px;
+    font-family: 'Raleway-Regular';
 }
 
 #section_hebergement {                                      /*  PARTIE HEBERGEMENT */
@@ -238,12 +253,13 @@ nav li {
     margin-left: 8px;
     margin-top: 0px;
     margin-bottom: 4px;
+    font-family: 'Raleway-Regular';
 }
 
 .heber i {
     display: flex;
 	margin-top: 0px;
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .etoile {
@@ -324,10 +340,11 @@ nav li {
     margin-top: 4px;
     margin-bottom: 30px;
     font-size: 14px;
+    font-family: 'Raleway-Regular';
 }
 
 .pop i {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #activites h1 {
@@ -419,7 +436,6 @@ nav li {
     padding: 40px;
     padding-right: 930px;
     margin: 0px;
-    font-family: Raleway, Sans Serif;
     height: 135px;
     display: flex;
     justify-content: space-between;
@@ -429,8 +445,10 @@ nav li {
 .propos h2{
     font-size: 16px;
     margin-bottom: 10px;
+    font-family: 'Raleway-Bold';
 }
 
 .propos p {
     font-size: 14px;
+    font-family: 'Raleway-Regular';
 }
