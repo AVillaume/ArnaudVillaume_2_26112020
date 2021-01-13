@@ -73,7 +73,9 @@ nav a:visited {
 #accroche h1 {
     
     font-size: 19px;
-	margin-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
 }
 
 #accroche p {
@@ -143,7 +145,7 @@ nav a:visited {
 .fil {
     
     display: flex;
-	border: solid;
+    border: solid;
 	border-color: #F2F2F2;
 	border-radius: 40px;
 	font-size: 14px;
@@ -160,6 +162,8 @@ nav a:visited {
 	justify-content: center;
 	padding-left: 15px;
     padding-right: 20px;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
     
 }
 .fil:hover {
@@ -184,6 +188,8 @@ nav a:visited {
     display: flex;
     font-size: 15px;
     margin-right: 10px;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
 }
 
 #indic
@@ -250,7 +256,9 @@ nav a:visited {
 }
 
 #hebergement h1 {
-    font-size: 21px;                                            
+    font-size: 21px;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;                                           
 }
 
 #hotel {
@@ -280,6 +288,8 @@ nav a:visited {
     margin-left: 8px;
     margin-bottom: 2px;
     margin-top: 4px;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
 }
 
 .heber p {
@@ -335,8 +345,13 @@ nav a:visited {
 	display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 17px;
+}
 
+#pop_icone h1 {
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
+    font-size: 21px;
 }
 
 .pop {
@@ -394,6 +409,8 @@ nav a:visited {
     margin-left: 10px;
     font-size: 18px;
     margin-bottom: 5px;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
 }
 
 #photo {
@@ -418,6 +435,8 @@ nav a:visited {
     margin-top: 15px;
     margin-left: 20px;
     font-size: 15px;
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
 
 }
 
@@ -492,6 +511,7 @@ nav a:visited {
     font-size: 16px;
     margin-bottom: 10px;
     font-family: 'Raleway-Bold';
+    font-weight: normal;
 }
 
 .propos p {
