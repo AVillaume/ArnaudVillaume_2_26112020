@@ -10,7 +10,7 @@
 }
 #bloc_page {
     
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     font-family: 'Raleway-Bold', Sans Serif;
 }
@@ -201,7 +201,8 @@ nav a {
 .panneau1 {                                  /*hébergement*/                                                           
     background-color: #F2F2F2;                                                                        
     width: 810px;                                                                                       
-    border-radius: 25px;                                                                                
+    border-radius: 25px;
+    margin-right: 20px;                                                                             
 }                                                                                                       
                                                                                                         
 .panneau2 {                                  /*les plus populaire*/                                                           
@@ -434,11 +435,13 @@ nav a {
 #bas_de_page {
     background-color: #F2F2F2;
     padding: 40px;
-    padding-right: 930px;
     margin: 0px;
     height: 135px;
     display: flex;
-    justify-content: space-between;
+}
+
+.propos {
+    width: 30%;
 }
 
 
