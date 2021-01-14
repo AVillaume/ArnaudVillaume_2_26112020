@@ -117,7 +117,6 @@ nav a:visited {
 	flex: 2;
     font-size: 16px;
     font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .search {
@@ -127,9 +126,7 @@ nav a:visited {
 	border-color: #F2F2F2;
     border-style: solid;
     padding: 10px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
-    
+
 }
 
 
@@ -142,19 +139,20 @@ nav a:visited {
 #container_fil {
     display: flex;
     justify-content: space-around;
-    width: 900px;
+    width: 800px;
 }
 
 .fil {
     
     display: flex;
-	border: solid;
+    border: solid;
 	border-color: #F2F2F2;
 	border-radius: 40px;
-	font-size: 19px;
+	font-size: 14px;
     border-left: none;
     height: 50px;
     justify-content: space-around;
+    font-weight: 600;
     
 }
 
@@ -188,7 +186,7 @@ nav a:visited {
 
 #filtres h2 {
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
     margin-right: 10px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
@@ -231,13 +229,13 @@ nav a:visited {
 
 #section_hebergement {                                      /*  PARTIE HEBERGEMENT */
     display: flex;                                                                                     
-    height: 600px;
+    height: 575px;
     justify-content: space-between;                                                                    
 }                                                                                                       
                                                                                                         
 .panneau1 {                                  /*hébergement*/                                                           
     background-color: #F2F2F2;                                                                        
-    width: 800px;                                                                                       
+    width: 675px;                                                                                       
     border-radius: 25px;
     padding: 40px;
     padding-top: 22px;                                                                            
@@ -245,7 +243,7 @@ nav a:visited {
                                                                                                         
 .panneau2 {                                  /*les plus populaire*/                                                           
     background-color: #F2F2F2;                                                                   
-    width: 390px;                                                                                   
+    width: 310px;                                                                                   
     border-radius: 25px;
     padding: 40px;
     padding-top: 22px;
@@ -260,7 +258,7 @@ nav a:visited {
 #hebergement h1 {
     font-size: 21px;
     font-family: 'Raleway-Bold';
-    font-weight: normal;                                            
+    font-weight: normal;                                           
 }
 
 #hotel {
@@ -274,19 +272,19 @@ nav a:visited {
     border-radius: 20px;
     margin-bottom: 30px;
     padding: 4px;
-    height: 188px;
+    height: 170px;
     box-shadow: 5px 5px 20px #bebebe;
 }
 
 .heber img {
-    width: 240px;
-    height: 120px;
+    width: 190px;
+    height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .heber h3 {
-    font-size: 15.5px;
+    font-size: 13px;
     margin-left: 8px;
     margin-bottom: 2px;
     margin-top: 4px;
@@ -295,7 +293,7 @@ nav a:visited {
 }
 
 .heber p {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 8px;
     margin-top: 0px;
     margin-bottom: 4px;
@@ -305,7 +303,7 @@ nav a:visited {
 .heber i {
     display: flex;
 	margin-top: 0px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .etoile {
@@ -332,7 +330,6 @@ nav a:visited {
     color: black;
     text-decoration: none;                                                                                    
 }
-
 #hebergement a:hover {
     color: #0065FC;
 }
@@ -348,8 +345,7 @@ nav a:visited {
 	display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
-
+    font-size: 17px;
 }
 
 #pop_icone h1 {
@@ -361,7 +357,7 @@ nav a:visited {
 .pop {
 	background-color: #FFF;
 	display: flex;
-	height: 135px;
+	height: 125px;
 	border-radius: 20px;
     box-shadow: 5px 5px 20px #bebebe;
     margin-bottom: 32px;
@@ -375,7 +371,7 @@ nav a:visited {
 }
 
 #pop_hotel img {
-	width: 120px;
+	width: 110px;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 	display: flex;
@@ -386,22 +382,20 @@ nav a:visited {
 
 .pop h3 {
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 13px;
     margin-bottom: 5px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .pop p {
     margin-left: 10px;
     margin-top: 4px;
-    margin-bottom: 30px;
-    font-size: 14px;
+    margin-bottom: 35px;
+    font-size: 12px;
     font-family: 'Raleway-Regular';
 }
 
 .pop i {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .banniere_act {
@@ -430,7 +424,7 @@ nav a:visited {
 }
 
 #photo img {
-    width: 310px;
+    width: 265px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -448,7 +442,7 @@ nav a:visited {
 
 .act1 {
     background-color: #FFF;
-    width: 310px;
+    width: 265px;
     height: 430px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px #bebebe;
@@ -458,7 +452,7 @@ nav a:visited {
 }
 .act2 {
     background-color: #FFF;
-    width: 310px;
+    width: 265px;
     height: 235px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px #bebebe;
@@ -468,7 +462,7 @@ nav a:visited {
 }
 .act3 {
     background-color: #FFF;
-    width: 310px;
+    width: 265px;
     height: 155px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px #bebebe;
@@ -478,7 +472,7 @@ nav a:visited {
 }
 .act4 {
     background-color: #FFF;
-    width: 310px;
+    width: 265px;
     height: 185px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px #bebebe;
@@ -488,7 +482,7 @@ nav a:visited {
 }
 .act5 {
     background-color:#FFF;
-    width: 310px;
+    width: 265px;
     height: 205px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px #bebebe;
@@ -501,9 +495,9 @@ nav a:visited {
 #bas_de_page {
     background-color: #F2F2F2;
     padding: 40px;
-    margin: 0px;
     height: 135px;
     display: flex;
+
 }
 
 #footer_align {

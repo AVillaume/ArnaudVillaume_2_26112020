@@ -3,19 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="screen and (min-width: 1380px)" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="Icone/css/all.css">
+		<link rel="stylesheet" media="all and (min-width: 1180px) and (max-width: 1380px)" href="petite_resolution.css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="smartphone.css">
 		<title>Reservia - Trouver votre hébergement</title>
 	</head>
 <body>
 	<div id="bloc_page">
 		<header>
-				<img src="images/logo/logo_reservia.png" alt="logo Reservia" />
+				<img id="accueil" src="images/logo/logo_reservia.png" alt="logo Reservia" />
 			<nav>
 					<ul>
-						<li> <a href="#hebergement">Hébergements </a></li>
-						<li> <a href="#activites">Activités </a></li>
-						<li> S'inscrire </li>
+						<li> <a class="link" href="#hebergement">Hébergements </a></li>
+						<li> <a class="link" href="#activites">Activités </a></li>
+						<li> <a class="inscription" href="#accueil">S'inscrire </a></li>
 					</ul>
 			</nav>
 		</header>		
@@ -198,24 +200,26 @@
 						</div>
 				</div>
 		</main>
-	</div>	
+	</div>
 		<footer id="bas_de_page">
-			<div class="propos">
-				<h2>A propos</h2>
-				<p>Fonctionnement du site</p>
-				<p>Conditions générales de vente</p>
-				<p>Données et confidentialité</p>
-			</div>
-			<div class="propos">
-				<h2>Nos hébergements</h2>
-				<p>Charte qualité</p>
-				<p>Soumettre votre hôtel</p>
-			</div>
-			<div class="propos">
-				<h2>Assistance</h2>
-				<p>Centre d'aide</p>
-				<p>Nous contacter</p>
-			</div>
-		</footer>
+			<div id="footer_align">	
+				<div class="propos">
+					<h2>A propos</h2>
+					<p>Fonctionnement du site</p>
+					<p>Conditions générales de vente</p>
+					<p>Données et confidentialité</p>
+				</div>
+				<div class="propos">
+					<h2>Nos hébergements</h2>
+					<p>Charte qualité</p>
+					<p>Soumettre votre hôtel</p>
+				</div>
+				<div class="propos">
+					<h2>Assistance</h2>
+					<p>Centre d'aide</p>
+					<p>Nous contacter</p>
+				</div>
+			</div>	
+		</footer>	
 </body>
 </html>
