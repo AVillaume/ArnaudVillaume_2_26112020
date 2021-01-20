@@ -379,7 +379,7 @@ nav a {
 }
 
 .pop h3 {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Raleway-Bold';
@@ -388,12 +388,12 @@ nav a {
 
 .pop p {
     margin-top: 4px;
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'Raleway-Regular';
 }
 
 .pop i {
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 5px;
 }
 
