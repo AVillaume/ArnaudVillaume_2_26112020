@@ -14,7 +14,7 @@
 }
 
 #bloc_page {
-    max-width: 1400px;
+    max-width: 980px;
     margin: auto;
     font-family: 'Raleway-SemiBold', Sans Serif;
 }
@@ -31,14 +31,15 @@ header {
 }
 
 header img {
-    max-width: 90px;
-    max-height: 45px;
+    max-width: 70px;
+    max-height: 35px;
 }
 
 nav, ul {
     display: flex;
     align-items: center;
     list-style-type: none;
+    font-size: 14px;
 }
 
 nav a {
@@ -47,8 +48,8 @@ nav a {
 
 .link {
     color: black;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
     
 }
 
@@ -61,7 +62,7 @@ nav a {
 .inscription {
     color: #0065FC;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-right: 10px;
 }
 
@@ -78,19 +79,19 @@ nav a:visited {
 
 #accroche p { 
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: 'Raleway-Regular';
 }
 
 #recherche {
     display: flex;
-	height: 50px;
-	max-width: 365px;
+	height: 45px;
+	max-width: 350px;
     margin-bottom: 30px;
 }
 
 #recherche i, .bouton, .search {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #recherche i {
@@ -99,7 +100,7 @@ nav a:visited {
 	background-color: #F2F2F2;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
-    flex: 1;
+    width: 45px;
 	align-items: center;
 }
 
@@ -118,12 +119,12 @@ nav a:visited {
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border: none;
-	flex: 2;
     padding: 15px;
+    width: 110px;
 }
 
 .search {
-    width: 180px;
+    width: 170px;
 	border-color: #F2F2F2;
     border-style: solid;
     padding: 10px;
@@ -143,10 +144,10 @@ nav a:visited {
 	border: solid;
 	border-color: #F2F2F2;
 	border-radius: 40px;
-	font-size: 19px;
+	font-size: 16px;
     border-left: none;
-    height: 50px;
-    margin-right: 25px;
+    height: 40px;
+    margin-right: 20px;
 }
 
 .fil p, .fil span {
@@ -163,7 +164,6 @@ nav a:visited {
 .fil p {
     padding-right: 20px;
     padding-left: 10px;
-    
 }
 
 .fil:hover {
@@ -175,15 +175,15 @@ nav a:visited {
 	background-color: #DEEBFF;
 	color:#0065FC;
 	border-radius: 100%;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	justify-self: flex-start;
 	border: none;
 }
 
 #filtres h2 {
     font-size: 16px;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 #indic
@@ -196,13 +196,13 @@ nav a:visited {
 }
 
 #indic i {
-	font-size: 14px;
+	font-size: 12px;
 	color: #0065FC;
 	border: solid;
 	border-color: #F2F2F2;
 	border-radius: 100%;
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -210,7 +210,7 @@ nav a:visited {
 }
 
 #indic p {
-    font-size: 15px;
+    font-size: 13.5px;
     font-family: 'Raleway-Regular';
 }
 
@@ -223,18 +223,18 @@ nav a:visited {
     margin: auto;
     background-color: #F2F2F2;
     border-radius: 25px;
-    padding: 40px;
-    padding-top: 15px;
-    padding-bottom: 50px;
-    height: 550px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    height: 400px;
 }
 
 #hebergement {
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 #hebergement h1, #pop_icone h1 {
-    font-size: 21px;
+    font-size: 17px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
 }
@@ -247,47 +247,43 @@ nav a:visited {
 }
 
 .heber, .pop {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     background-color: #fff;
-    box-shadow: 0px 0px 15px #bebebe;
+    box-shadow: 5px 5px 20px #bebebe;
     border-radius: 20px;
-    padding: 4px;
+    padding: 3px;
 }
 
 .heber {
-    height: 188px;
+    height: 135px;
 }
 
-#hotel img {
-    max-width: 248px;
+.heber img {
+    max-width: 170px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .heber h3, .heber p, .etoile {
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
 
 .heber h3 {
-    font-size: 15.5px;
+    font-size: 11px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
 }
 
 .heber p {
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Raleway-Regular';
 }
 
 .heber i {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 1px;
-}
-
-.heber .etoile {
-    margin-left: 10px;
 }
 
 .etoile {
@@ -303,7 +299,7 @@ nav a:visited {
 }
 
 .afficher {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
     margin-left: 5px;
     color: black;
@@ -336,7 +332,7 @@ nav a:visited {
 }
 
 #populaire {
-    width: 680px;   
+    width: 450px;   
 }
 
 #pop_icone {
@@ -348,22 +344,23 @@ nav a:visited {
 
 .pop {
     display: flex;
-    height: 135px;
-    padding-right: 50px;
+    height: 98px;
+    padding-right: 20px;
 }
 
 .pop h3, .pop p {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .pop img {
-	width: 120px;
+	width: 100px;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 }
 
 .pop h3 {
-    font-size: 18px;
+    font-size: 11px;
+    margin-top: 10px;
     margin-bottom: 5px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
@@ -372,21 +369,21 @@ nav a:visited {
 .pop p {
     margin-top: 4px;
     margin-bottom: 30px;
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Raleway-Regular';
 }
 
 .pop i {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .pop .etoile {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 #banniere_act {
-    margin:auto;
-    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #banniere_act h1 {
@@ -401,11 +398,11 @@ nav a:visited {
     flex-flow: column wrap;
     justify-content: space-between;
     align-content: space-between;
-    height: 430px;
+    height: 400px;
 }
 
 #activite img {
-    width: 320px;
+    width: 225px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -413,36 +410,32 @@ nav a:visited {
 #activite h3 {
     margin-top: 15px;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
 }
 
 .act, .act2, .act3, .act4, .act5 {
     background-color: #fff;
-    width: 320px;
+    width: 225px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px #bebebe;
+    box-shadow: 5px 5px 20px #bebebe;
 }
 
 .act img {
-    height: 380px;
+    height: 350px;
 }
 
 .act2 img {
-    height: 175px;
+    height: 160px;
 }
 
 .act3 img {
-    height: 110px;
-}
-
-.act4 img {
-    height: 140px;
+    height: 100px;
 }
 
 .act5 img {
-    height: 145px;
+    height: 135px;
 }
 
 #bas_de_page {
