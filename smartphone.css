@@ -249,7 +249,7 @@ nav a {
     order: 2;
 }
 
-#hebergement h1, #pop_icone h1, #banniere_act h1 {
+#hebergement h2, #pop_icone h2, #banniere_act h1 {
     font-size: 32px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
