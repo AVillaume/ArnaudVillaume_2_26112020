@@ -263,31 +263,31 @@ nav a {
     padding: 6px;
 }
 
-#hotel img {
+#hotel_smart img {
     width: 100%;
     min-height: 180px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-#hotel h3, #hotel p, .etoile {
+#hotel_smart h3, #hotel_smart p, .etoile {
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 0px;
 }
 
-#hotel h3 {
+#hotel_smart h3 {
     font-size: 22px;
     font-family: 'Raleway-Bold';
     font-weight: normal;
 }
 
-#hotel p {
+#hotel_smart p {
     font-size: 19px;
     font-family: 'Raleway-Regular';
 }
 
-#hotel i {
+#hotel_smart i {
     font-size: 18px;
     margin-top: 3px;
     margin-bottom: 5px;
@@ -312,7 +312,7 @@ nav a {
     text-decoration: none;
 }
 
-#hotel a, #populaire a, #banniere_act a, #bas_de_page a {
+#hotel_smart a, #populaire a, #banniere_act a, #bas_de_page a {
     color: black;
     text-decoration: none;
 }
