@@ -1,0 +1,299 @@
+#bloc_page {
+    max-width: 980px;
+}
+
+.smart, .smart .etoile, .smart .heber {
+    display: none;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header img {
+    max-width: 70px;
+    max-height: 35px;
+}
+
+nav, ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.link {
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.inscription {
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+#accroche h1 {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+#accroche p { 
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#recherche {
+	height: 45px;
+	max-width: 350px;
+    margin-bottom: 30px;
+}
+
+#recherche i, .bouton, .search {
+    font-size: 14px;
+}
+
+#recherche i {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+    width: 45px;
+}
+
+#recherche span {
+    display: none;
+}
+
+.bouton {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+    padding: 15px;
+    width: 110px;
+}
+
+.search {
+    width: 170px;
+    padding: 10px;
+}
+
+#filtres {
+    align-items: center;
+}
+
+.fil {
+	border-radius: 40px;
+	font-size: 16px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.fil p {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.fil span {
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+}
+
+#filtres h2 {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+#indic
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#indic i {
+	font-size: 12px;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+#indic p {
+    font-size: 13.5px;
+}
+
+#section_hebergement {
+    margin: auto;
+}
+
+#hebergement, #populaire {
+    margin: auto;
+    border-radius: 25px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    height: 400px;
+}
+
+#hebergement {
+    margin-right: 25px;
+    background-color: #F2F2F2;
+}
+
+#hebergement h2, #pop_icone h2, #banniere_act h1 {
+    font-size: 17px;
+}
+
+#hotel {
+    justify-content: space-between;
+    flex-flow: row wrap;
+  
+}
+
+.heber, .pop {
+    margin-bottom: 25px;
+    padding: 3px;
+}
+
+.heber {
+    height: 135px;
+}
+
+.heber img {
+    max-width: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.heber h3, .heber p, .etoile {
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.heber h3 {
+    font-size: 11px;
+}
+
+.heber p {
+    font-size: 10px;
+}
+
+.heber i {
+    font-size: 10px;
+    margin-top: 1px;
+}
+
+.afficher {
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+
+#populaire {
+    width: 450px;   
+}
+
+#pop_icone {
+    font-size: 18px;
+}
+
+.pop {
+    height: 98px;
+    padding-right: 20px;
+}
+
+.pop h3, .pop p {
+    margin-left: 15px;
+}
+
+.pop img {
+	width: 100px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.pop h3 {
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.pop p {
+    margin-top: 4px;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.pop i {
+    font-size: 10px;
+}
+
+.pop .etoile {
+    margin-left: 15px;
+}
+
+#banniere_act {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#banniere_act h1 {
+    margin-top: 50px;
+}
+
+#activite {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 400px;
+}
+
+#activite img {
+    width: 225px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#activite h3 {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.act, .act2, .act3, .act4, .act5 {
+    width: 225px;
+}
+
+.act img {
+    height: 350px;
+}
+
+.act2 img {
+    height: 172px;
+}
+
+.act3 img {
+    height: 100px;
+}
+
+.act4 img {
+    height: 130px;
+}
+
+.act5 img {
+    height: 140px;
+}
+
+#bas_de_page {
+    padding: 45px;
+    height: 120px;
+}
+
+.propos h2{
+    font-size: 16px;
+}
+
+.propos p {
+    font-size: 14px;
+}

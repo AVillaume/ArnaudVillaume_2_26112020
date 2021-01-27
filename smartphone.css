@@ -1,4 +1,5 @@
 #bloc_page {
+
     max-width: 100%;
     margin-top: 20px;
 }
@@ -19,15 +20,16 @@ header img {
 #menu_smart{
     list-style-type: none;
     display: flex;
+    align-items: center;
 }
 
 .link_smart, .inscription {
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .link_smart {
     width: 50%;
-    height: 75px;  
+    height: 50px;  
     border-bottom: 4px solid #F2F2F2;
 }
 
@@ -39,36 +41,40 @@ header img {
 
 #accroche h1 {
     
-    font-size: 36px;
-    margin-bottom: 0px;
+    font-size: 22px;
+    margin-bottom: 10px;
     margin-top: 35px;
+    margin-right: 10px;
 }
 
 #accroche p {
-    font-size: 26px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 #recherche {
     max-width: 100%;
-    height: 90px;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
-#recherche i, .bouton, .search, #recherche span {
-    font-size: 28px;
+.bouton, .search, #recherche span {
+    font-size: 18px;
 }
+
 
 #recherche i {
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
+    font-size: 19px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 #recherche i, #recherche span {
-    min-width: 90px;
+    min-width: 50px;
 }
 
 .bouton {
@@ -76,12 +82,14 @@ header img {
 }
 
 #recherche span {
-	border-radius: 30px;
+	border-radius: 20px;
 }
 
 .search {
     border: none;
-    padding: 15px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     flex-grow: 2;
     min-width: 20%;
 }
@@ -96,27 +104,28 @@ header img {
     justify-content: flex-start;
 }
 
-.fil { 
+.fil {
     border-radius: 50px;
-	font-size: 25px;
-    height: 85px;
-    margin-right: 15px;
+	font-size: 16px;
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
     margin-bottom: 15px;
 }
 
 .fil p {
-    padding-right: 25px;
-    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 10px;
 }
 
 .fil span {
 	border-radius: 100%;
-    width: 90px;
-    height: 90px;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 #filtres h2, .fil span {
-    font-size: 28px;
+    font-size: 18px;
 }
 
 #indic
@@ -127,14 +136,15 @@ header img {
 }
 
 #indic i {
-    font-size: 22px;
+    font-size: 14px;
 	border-radius: 100%;
-    padding: 10px 17px;
+    padding: 5px 10px;
 	margin-right: 15px;
 }
 
 #indic p {
-    font-size: 25px;
+    font-size: 14px;
+    margin-right: 5px;
 }
 
 #section_hebergement {
@@ -144,26 +154,30 @@ header img {
 #populaire, #hebergement, #activite_smart {
     padding: 30px;
     padding-top: 20px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
 }
 
 #hebergement {
-
+    margin-bottom: 10px;
     order: 2;
 }
 
 #hebergement h2, #pop_icone h2, #banniere_act h1 {
-    font-size: 32px;
+    font-size: 19px;
 }
 
 .heber, .pop {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
     padding: 6px;
 }
+.heber {
+    margin-bottom: 30px;
+ }
 
 #hotel_smart img {
     width: 100%;
-    min-height: 180px;
+    height: 60%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -175,35 +189,34 @@ header img {
 }
 
 #hotel_smart h3 {
-    font-size: 22px;
+    font-size: 13px;
 }
 
 #hotel_smart p {
-    font-size: 19px;
+    font-size: 12px;
 }
 
 #hotel_smart i {
-    font-size: 18px;
-    margin-top: 3px;
+    font-size: 12.5px;
     margin-bottom: 5px;
 }
 
 .afficher {
-    font-size: 25px;
-}                                                            
+    font-size: 16px;
+}
 
 #populaire {
     max-width: 100%;
 }
 
 #pop_icone {
-    font-size: 29px;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
 .pop {
-    min-height: 170px;
-    max-height: 260px;
+    min-height: 120px;
+    max-height: 160px;
     padding-right: 20px;
 }
 
@@ -218,23 +231,23 @@ header img {
 }
 
 .pop h3 {
-    font-size: 23px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .pop p {
     margin-top: 4px;
-    font-size: 20px;
+    font-size: 11px;
 }
 
 .pop i {
-    font-size: 19px;
+    font-size: 11px;
     margin-bottom: 5px;
 }
 
 .pop .etoile {
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 #banniere_act {
@@ -245,23 +258,21 @@ header img {
     margin-left: 30px;
 }
 
-#activite_smart, .act {
+#activite_smart {
     display: flex;
     flex-direction: column;
 }
 
-
 .act img {
     width: 100%;
-    height: 70%;
+    height: 75%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .act h3 {
-    font-size: 25px;
+    font-size: 15px;
     padding-left: 25px;
-
 }
 
 .act {
@@ -280,10 +291,10 @@ header img {
     margin-bottom: 20px;
 }
 .propos h2{
-    font-size: 26px;
+    font-size: 19px;
 }
 
 .propos p {
-    font-size: 24px;
+    font-size: 15px;
 }
                                                 
