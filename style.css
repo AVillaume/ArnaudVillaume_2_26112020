@@ -1,22 +1,5 @@
-@font-face {
-    font-family: 'Raleway-Bold';     
-    src: url(font/Raleway-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Raleway-Regular';
-    src: url(font/Raleway-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Raleway-SemiBold';
-    src: url(font/Raleway-Regular.ttf);
-}
-
 #bloc_page {
     max-width: 1400px;
-    margin: auto;
-    font-family: 'Raleway-SemiBold', Sans Serif;
 }
 
 .smart, .smart .etoile, .smart .heber {
@@ -24,9 +7,6 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 20px;
 }
 
@@ -41,49 +21,28 @@ nav, ul {
     list-style-type: none;
 }
 
-nav a {
-    text-decoration: none;
-}
-
 .link {
-    color: black;
     padding-left: 50px;
     padding-right: 50px;
     
 }
 
-.link:hover {
-    border-top: 3px solid #0065FC;
-    padding-top: 30px;
-    color: #0065FC;
-}
-
 .inscription {
-    color: #0065FC;
-    font-weight: bold;
     margin-left: 50px;
     margin-right: 10px;
-}
-
-nav a:visited {
-    text-decoration: none;
 }
 
 #accroche h1 {
     font-size: 19px;
     margin-bottom: 0;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 #accroche p { 
     font-size: 14px;
     margin-top: 10px;
-    font-family: 'Raleway-Regular';
 }
 
 #recherche {
-    display: flex;
 	height: 50px;
 	max-width: 365px;
     margin-bottom: 30px;
@@ -94,70 +53,36 @@ nav a:visited {
 }
 
 #recherche i {
-	display: flex;
-	justify-content: center;
-	background-color: #F2F2F2;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
     flex: 1;
-	align-items: center;
 }
 
 #recherche span {
     display: none;
 }
 
-.bouton, .search {
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
-}
-
 .bouton {
-	background-color: #0065FC;
-	color: #FFF;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-	border: none;
 	flex: 2;
     padding: 15px;
 }
 
 .search {
     width: 180px;
-	border-color: #F2F2F2;
-    border-style: solid;
     padding: 10px;
 }
 
 #filtres {
-    display: flex;
     align-items: center;
 }
 
-#container_fil {
-    display: flex;
-}
-
 .fil {
-    display: flex;
-	border: solid;
-	border-color: #F2F2F2;
 	border-radius: 40px;
 	font-size: 19px;
-    border-left: none;
     height: 50px;
     margin-right: 25px;
-}
-
-.fil p, .fil span {
-    display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.fil p, #filtres h2 {
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .fil p {
@@ -166,19 +91,10 @@ nav a:visited {
     
 }
 
-.fil:hover {
-    color: white;
-    background-color: #0065FC;
-}
-
 .fil span {
-	background-color: #DEEBFF;
-	color:#0065FC;
 	border-radius: 100%;
 	width: 50px;
 	height: 50px;
-	justify-self: flex-start;
-	border: none;
 }
 
 #filtres h2 {
@@ -188,40 +104,29 @@ nav a:visited {
 
 #indic
 {
-	display: flex;
     margin-top: 20px;
     margin-bottom: 15px;
-	justify-content: flex-start;
     align-items: center;
 }
 
 #indic i {
 	font-size: 14px;
-	color: #0065FC;
-	border: solid;
-	border-color: #F2F2F2;
 	border-radius: 100%;
 	width: 25px;
 	height: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	margin-right: 10px;
 }
 
 #indic p {
     font-size: 15px;
-    font-family: 'Raleway-Regular';
 }
 
 #section_hebergement {
-    display: flex;
     margin: auto;
 }
 
 #hebergement, #populaire {
     margin: auto;
-    background-color: #F2F2F2;
     border-radius: 25px;
     padding: 40px;
     padding-top: 15px;
@@ -231,16 +136,14 @@ nav a:visited {
 
 #hebergement {
     margin-right: 40px;
+    background-color: #F2F2F2;
 }
 
-#hebergement h2, #pop_icone h2 {
+#hebergement h2, #pop_icone h2, #banniere_act h1 {
     font-size: 21px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 #hotel {
-    display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
   
@@ -248,9 +151,6 @@ nav a:visited {
 
 .heber, .pop {
     margin-bottom: 30px;
-    background-color: #fff;
-    box-shadow: 0px 0px 15px #bebebe;
-    border-radius: 20px;
     padding: 4px;
 }
 
@@ -272,13 +172,10 @@ nav a:visited {
 
 .heber h3 {
     font-size: 15.5px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .heber p {
     font-size: 14px;
-    font-family: 'Raleway-Regular';
 }
 
 .heber i {
@@ -290,49 +187,9 @@ nav a:visited {
     margin-left: 10px;
 }
 
-.etoile {
-	color: #0065FC;
-	display: flex;
-	flex-direction: row;
-    align-items: flex-start;
-}
-
-.gris {
-	color: #bebebe;
-	display: flex;
-}
-
 .afficher {
     font-size: 20px;
-    font-weight: bold;
     margin-left: 5px;
-    color: black;
-    text-decoration: none;
-}
-
-#hotel a, #populaire a, #banniere_act a, #bas_de_page a {
-    color: black;
-    text-decoration: none;
-}
-
-#bas_de_page a:hover {
-    text-decoration: underline;
-}
-
-.afficher:hover {
-    color: blue;
-}
-
-#hotel a:hover, #populaire a:hover, #banniere_act a:hover {
-    box-shadow: 0px 0px 10px blue;
-}
-
-#hotel a:active, #populaire a:active, #banniere_act a:active {
-    box-shadow: none;
-}
-
-.prix {
-	font-weight: bold;
 }
 
 #populaire {
@@ -340,14 +197,10 @@ nav a:visited {
 }
 
 #pop_icone {
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 18px;
 }
 
 .pop {
-    display: flex;
     height: 135px;
     padding-right: 50px;
 }
@@ -365,15 +218,12 @@ nav a:visited {
 .pop h3 {
     font-size: 18px;
     margin-bottom: 5px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .pop p {
     margin-top: 4px;
     margin-bottom: 30px;
     font-size: 14px;
-    font-family: 'Raleway-Regular';
 }
 
 .pop i {
@@ -391,9 +241,6 @@ nav a:visited {
 
 #banniere_act h1 {
     margin-top: 50px;
-    font-size: 19px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 #activite {
@@ -414,15 +261,10 @@ nav a:visited {
     margin-top: 15px;
     margin-left: 20px;
     font-size: 15px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .act, .act2, .act3, .act4, .act5 {
-    background-color: #fff;
     width: 320px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px #bebebe;
 }
 
 .act img {
@@ -446,23 +288,14 @@ nav a:visited {
 }
 
 #bas_de_page {
-    background-color: #F2F2F2;
     padding: 45px;
     height: 120px;
 }
 
-.footer_align {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-}
 .propos h2{
     font-size: 16px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .propos p {
     font-size: 14px;
-    font-family: 'Raleway-Regular';
 }

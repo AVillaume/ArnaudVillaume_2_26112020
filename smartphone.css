@@ -1,24 +1,6 @@
-@font-face {
-    font-family: 'Raleway-Bold';     
-    src: url(font/Raleway-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Raleway-Regular';
-    src: url(font/Raleway-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Raleway-SemiBold';
-    src: url(font/Raleway-Regular.ttf);
-}
-
 #bloc_page {
-    
     max-width: 100%;
-    margin: auto;
     margin-top: 20px;
-    font-family: 'Raleway-SemiBold', Sans Serif;
 }
 
 .desk {
@@ -26,9 +8,6 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -42,19 +21,13 @@ header img {
     display: flex;
 }
 
-nav a {
-    text-decoration: none;
-}
-
 .link_smart, .inscription {
     font-size: 25px;
 }
 
 .link_smart {
     width: 50%;
-    height: 75px;
-    color: black;
-    font-family: 'Raleway-Regular';    
+    height: 75px;  
     border-bottom: 4px solid #F2F2F2;
 }
 
@@ -63,37 +36,19 @@ nav a {
     justify-content: center;
 }
 
-.inscription {
-    color: #0065FC;
-    font-family: 'Raleway-Bold';
-}
-.link_smart:hover {
-    border-bottom-color: #0065FC;
-    color: #0065FC;
-}
-
-.inscription:visited {
-    text-decoration: none;
-}
 
 #accroche h1 {
     
     font-size: 36px;
     margin-bottom: 0px;
     margin-top: 35px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 #accroche p {
-    
     font-size: 26px;
-    font-family: 'Raleway-Regular';
 }
 
 #recherche {
-    display: flex;
-    justify-content: center;
     max-width: 100%;
     height: 90px;
     margin-top: 50px;
@@ -108,21 +63,12 @@ nav a {
 }
 
 #recherche i {
-	background-color: #F2F2F2;
 	border-top-left-radius: 30px;
 	border-bottom-left-radius: 30px;
 }
 
 #recherche i, #recherche span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-width: 90px;
-}
-
-.bouton, .search {
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .bouton {
@@ -130,11 +76,6 @@ nav a {
 }
 
 #recherche span {
-
-    display: flex;
-    justify-content: center;
-    background-color: #0065FC;
-	color: #FFF;
 	border-radius: 30px;
 }
 
@@ -146,33 +87,21 @@ nav a {
 }
 
 #filtres {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 #container_fil {
-    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.fil {
-    display: flex;
-    border: solid;
-    align-items: center;
-	border-color: #ececec;
+.fil { 
     border-radius: 50px;
 	font-size: 25px;
-    border-left: none;
     height: 85px;
     margin-right: 15px;
     margin-bottom: 15px;
-}
-
-.fil p, #filtres h2 {
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .fil p {
@@ -180,26 +109,10 @@ nav a {
     padding-left: 15px;
 }
 
-.fil:hover {
-    color: white;
-    background-color: #0065FC;
-}
-
-.fil:active {
-    background-color: #0065ab;
-}
-
 .fil span {
-	background-color: #DEEBFF;
-	color:#0065FC;
 	border-radius: 100%;
     width: 90px;
     height: 90px;
-    justify-self: flex-start;
-    display: flex;
-	align-items: center;
-	justify-content: center;
-	border: none;
 }
 
 #filtres h2, .fil span {
@@ -208,33 +121,23 @@ nav a {
 
 #indic
 {
-	display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-	justify-content: flex-start;
     align-items: baseline;
 }
 
 #indic i {
     font-size: 22px;
-	color: #0065FC;
-	border: solid;
-	border-color: #F2F2F2;
 	border-radius: 100%;
     padding: 10px 17px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	margin-right: 15px;
 }
 
 #indic p {
     font-size: 25px;
-    font-family: 'Raleway-Regular';
 }
 
 #section_hebergement {
-    display: flex;
     flex-direction: column;
 }
 
@@ -251,15 +154,10 @@ nav a {
 
 #hebergement h2, #pop_icone h2, #banniere_act h1 {
     font-size: 32px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .heber, .pop {
     margin-bottom: 40px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px #bebebe;
-    border-radius: 20px;
     padding: 6px;
 }
 
@@ -278,13 +176,10 @@ nav a {
 
 #hotel_smart h3 {
     font-size: 22px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 #hotel_smart p {
     font-size: 19px;
-    font-family: 'Raleway-Regular';
 }
 
 #hotel_smart i {
@@ -293,67 +188,20 @@ nav a {
     margin-bottom: 5px;
 }
 
-.etoile {
-	color: #0065FC;
-	display: flex;
-	flex-direction: row;
-    align-items: flex-start;
-}
-
-.gris {
-	color: #bebebe;
-	display: flex;
-}
-
 .afficher {
     font-size: 25px;
-    font-family: 'Raleway-Bold';
-    color: black;
-    text-decoration: none;
-}
-
-#hotel_smart a, #populaire a, #banniere_act a, #bas_de_page a {
-    color: black;
-    text-decoration: none;
-}
-
-#bas_de_page a:hover {
-    text-decoration: underline;
-}
-
-.afficher:hover {
-    color: blue;
-}
-
-.heber:hover, #populaire a:hover, #banniere_act a:hover {
-    box-shadow: 0px 0px 10px blue;
-}
-
-.heber:active, #populaire a:active, #banniere_act a:active {
-    box-shadow: none;
-    width: 98%;
-}
-
-.prix {
-	font-weight: bold;
-}
-                                                            
+}                                                            
 
 #populaire {
     max-width: 100%;
-    background-color: #F2F2F2;
 }
 
 #pop_icone {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 29px;
     margin-bottom: 10px;
 }
 
 .pop {
-    display: flex;
     min-height: 170px;
     max-height: 260px;
     padding-right: 20px;
@@ -373,14 +221,11 @@ nav a {
     font-size: 23px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .pop p {
     margin-top: 4px;
     font-size: 20px;
-    font-family: 'Raleway-Regular';
 }
 
 .pop i {
@@ -415,42 +260,30 @@ nav a {
 
 .act h3 {
     font-size: 25px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
     padding-left: 25px;
 
 }
 
 .act {
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px #bebebe;
     margin-bottom: 30px;
 }
 
 #bas_de_page {
-    background-color: #F2F2F2;
     padding: 40px;
     margin-top: 5px;
 }
 
 .footer_align {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 75%;
 }
 .propos {
     margin-bottom: 20px;
 }
 .propos h2{
     font-size: 26px;
-    font-family: 'Raleway-Bold';
-    font-weight: normal;
 }
 
 .propos p {
     font-size: 24px;
-    font-family: 'Raleway-Regular';
 }
                                                 

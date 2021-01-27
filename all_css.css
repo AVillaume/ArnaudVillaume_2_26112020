@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Raleway-Bold';     
+    src: url(font/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(font/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url(font/Raleway-Regular.ttf);
+}
+
+#bloc_page {
+    margin: auto;
+}
+
+/***** COLORS *****/
+
+.link:hover, .link_smart:hover, .inscription, .fil span, #indic i, .etoile,
+.afficher:hover {
+    color: #0065FC;
+}
+
+.link_smart:hover {
+    border-bottom-color: #0065FC;
+}
+
+.link, .link_smart, .afficher, .heber,
+#hotel_smart a, #populaire a, #banniere_act a, #bas_de_page a {
+    color: black;
+}
+
+#recherche span, .bouton, .fil:hover {
+    color: #fff;
+}
+
+.gris {
+    color: #bebebe;
+}
+
+/***** LINK *****/
+
+nav a, .afficher, .heber,
+#populaire a, #banniere_act a, #bas_de_page a {
+    text-decoration: none;
+}
+
+.link:hover {
+    border-top: 3px solid #0065FC;
+    padding-top: 30px;
+}
+
+/***** HOVER *****/
+
+#bas_de_page a:hover {
+    text-decoration: underline;
+}
+
+.heber:hover, #populaire a:hover, #banniere_act a:hover {
+    box-shadow: 0px 0px 10px blue;
+}
+
+.heber:active, #populaire a:active, #banniere_act a:active {
+    box-shadow: none;
+}
+
+/***** BACKGROUND COLORS *****/
+
+.heber, .pop, .act,
+.act2, .act3, .act4, .act5 { 
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #bebebe;
+    border-radius: 20px;
+}
+
+#recherche i, #populaire, #bas_de_page {
+    background-color: #f2f2f2;
+}
+
+#recherche span, .bouton, .fil:hover {
+    background-color: #0065FC;
+}
+
+.fil span {
+    background-color: #DEEBFF;
+}
+
+/***** BORDER *****/
+
+.search, .fil, #indic i {
+    border: solid;
+    border-color: #f2f2f2;
+}
+
+.bouton, .fil span {
+    border: none;
+}
+
+.fil {
+    border-left: none;
+}
+
+
+/***** FONT-FAMILY *****/
+
+.inscription, .afficher,
+.bouton, .search, .fil p,
+h1, h2, h3 {
+    font-family: 'Raleway-Bold';
+}
+
+p, .link_smart, .link {
+    font-family: 'Raleway-Regular';
+}
+
+.bouton, .search, .fil p,
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+.prix {
+    font-weight: bold;
+}
+
+/***** FLEX *****/
+
+header, #pop_icone, .footer_align {
+    justify-content: space-between;
+}
+
+header,
+#recherche i, #recherche span, .fil span, .fil p,
+#indic i {
+    align-items: center;
+}
+
+header,
+#recherche, #recherche i, #recherche span,
+#filtres, #container_fil, .fil, .fil p, .fil span,
+#indic, #indic i,
+#section_hebergement, #hotel, #pop_icone, .pop,
+.etoile, .gris,
+.footer_align {
+    display: flex;
+}
+
+#recherche i, #recherche span, .fil span,
+#indic i {
+    justify-content: center;
+}
+
+.fil span {
+    justify-self: flex-start;
+}
+
+.etoile {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/***** SIZE *****/
+
+.footer_align {
+    width: 75%;
+}
+

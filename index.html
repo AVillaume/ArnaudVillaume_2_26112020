@@ -4,10 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Reservia vous propose un outil de planification de vacances. Hôtel, auberge, activités, ne partez plus sans organiser votre séjour">
+		<link rel="stylesheet" href="all_css.css" media="all">
 		<link rel="stylesheet" media="screen and (min-width: 1380px)" type="text/css" href="style.css">
-		<link rel="stylesheet" media="all and (min-width: 1160px) and (max-width: 1380px)" href="petite_resolution.css">
-		<link rel="stylesheet" media="all and (min-width: 960px) and (max-width: 1160px)" href="tablet.css">
-		<link rel="stylesheet" media="all and (min-width: 500px) and (max-width: 960px)" href="smartphone.css">
+		<link rel="stylesheet" media="screen and (min-width: 1160px) and (max-width: 1380px)" href="petite_resolution.css">
+		<link rel="stylesheet" media="screen and (min-width: 960px) and (max-width: 1160px)" href="tablet.css">
+		<link rel="stylesheet" media="screen and (min-width: 500px) and (max-width: 960px)" href="smartphone.css">
 		<link rel="stylesheet" media="screen and (max-width: 500px)" href="smartphone_small.css">
 		<link rel="stylesheet" type="text/css" href="Icone/css/all.css">
 		<title>Reservia - Trouver votre hébergement</title>
@@ -17,7 +18,7 @@
 		<header>
 				<img id="accueil" src="images/logo/logo_reservia.png" alt="logo Reservia" />
 			<nav>
-				<ul class="desk">
+				<ul id="menu" class="desk">
 					<li> <a class="link" href="#hebergement">Hébergements </a></li>
 					<li> <a class="link" href="#activite">Activités </a></li>
 				</ul>
@@ -28,7 +29,7 @@
 			<nav>
 				<div id="menu_smart" class="smart">
 					<a class="link_smart" href="#hebergement"><p>Hébergements</p></a>
-					<a class="link_smart" href="#activite"><p>Activités</p></a>
+					<a class="link_smart" href="#activite_smart"><p>Activités</p></a>
 				</div>
 			</nav>
 			<section id="accroche">
@@ -70,7 +71,7 @@
 				<article id="hebergement">
 					<h2>Hébergements à Marseille</h2>
 						<div id="hotel" class="desk">
-							<a class="heber desk" href="">
+							<a class="heber desk">
 									<img class="desk" src="images/cannebiere.jpg" alt="Auberge la Cannebière" />
 									<h3 class="desk">Auberge la Cannebière</h3>
 									<p class="desk">Nuit à partir de <span class="prix">25€</span></p>
@@ -78,7 +79,7 @@
 									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><div class="gris"><i class="fas fa-star"></i></div>
 								</div>
 							</a>
-							<a class="heber desk" href="">
+							<a class="heber desk">
 									<img class="desk" src="images/port.jpg" alt="Hôtel du port" />
 									<h3 class="desk">Hôtel du port</h3>
 									<p class="desk">Nuit à partir de 52€</p>							
@@ -86,7 +87,7 @@
 									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 								</div>
 							</a>
-							<a class="heber desk" href="">
+							<a class="heber desk">
 									<img class="desk" src="images/mouettes.jpg" alt="Hôtel Les mouettes" />
 									<h3 class="desk">Hôtel Les mouettes</h3>
 									<p class="desk">Nuit à partir de 76€</p>						
@@ -94,7 +95,7 @@
 									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><div class="gris"><i class="fas fa-star"></i></div>
 								</div>
 							</a>
-							<a class="heber desk" href="">							
+							<a class="heber desk">							
 									<img class="desk" src="images/mer.jpg" alt="Hôtel de la mer" />
 									<h3 class="desk">Hôtel de la mer</h3>
 									<p class="desk">Nuit à partir de 46€</p>						
@@ -102,7 +103,7 @@
 									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><div class="gris"><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 								</div>
 							</a>
-							<a class="heber desk" href="">			
+							<a class="heber desk">			
 									<img class="desk" src="images/panier.jpg" alt="Auberge Le Panier" />
 									<h3 class="desk">Auberge Le Panier</h3>
 									<p class="desk">Nuit à partir de <span class="prix">23€</span></p>			
@@ -110,7 +111,7 @@
 									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><div class="gris"><i class="fas fa-star"></i></div>
 								</div>
 							</a>
-							<a class="heber desk" href="">
+							<a class="heber desk">
 									<img class="desk" src="images/amina.jpg" alt="Hôtel chez Amina" />
 									<h3 class="desk">Hôtel chez Amina</h3>
 									<p class="desk">Nuit à partir de 96€</p>
