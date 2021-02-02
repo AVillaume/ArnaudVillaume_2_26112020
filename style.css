@@ -200,7 +200,7 @@ header, #menu_smart,
         max-width: 1200px;
     }
 
-    .smart, #hotel_smart, #activite_smart, #recherche span {
+    .link_smart, .smart, #hotel_smart, #activite_smart, #recherche span {
         display: none;
     }
 
