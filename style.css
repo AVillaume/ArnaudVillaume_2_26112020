@@ -14,7 +14,7 @@
 }
 
 #bloc_page {
-    margin: auto;
+   margin: auto;
 }
 
 /***** COLORS *****/
@@ -70,7 +70,7 @@ nav a, .afficher, .heber,
 /***** BACKGROUND COLORS *****/
 
 .heber, .pop, .act,
-.act2, .act3, .act4, .act5 { 
+.act2, .act3, .act4, .act5, .act_smart { 
     background-color: #fff;
     box-shadow: 0px 0px 15px #bebebe;
     border-radius: 20px;
@@ -99,8 +99,12 @@ nav a, .afficher, .heber,
     border: none;
 }
 
-.fil {
+.fil, .search {
     border-left: none;
+}
+
+.search {
+    border-right: none;
 }
 
 
@@ -127,26 +131,32 @@ h1, h2, h3 {
 
 /***** FLEX *****/
 
-header, #pop_icone, .footer_align {
-    justify-content: space-between;
-}
-
-header,
-#recherche i, #recherche span, .fil span, .fil p,
-#indic i {
-    align-items: center;
-}
-
-header,
+header, #menu_smart, .link_smart p,
 #recherche, #recherche i, #recherche span,
 #filtres, #container_fil, .fil, .fil p, .fil span,
 #indic, #indic i,
-#section_hebergement, #hotel, #pop_icone, .pop,
+#section_hebergement, #hotel, .heber, #pop_icone, .pop, .alignement,
+#activite,
 .etoile, .gris,
 .footer_align {
     display: flex;
 }
 
+header, #hotel, .heber, #pop_icone, .footer_align, #activite {
+    justify-content: space-between;
+}
+
+#activite {
+    align-content: space-between;
+}
+
+header, #menu_smart,
+#recherche i, #recherche span, .fil span, .fil p,
+#indic i, #pop_icone {
+    align-items: center;
+}
+
+.link_smart p,
 #recherche i, #recherche span, .fil span,
 #indic i {
     justify-content: center;
@@ -154,6 +164,18 @@ header,
 
 .fil span {
     justify-self: flex-start;
+}
+
+.heber, #hotel_smart, .alignement {
+    flex-direction: column;
+}
+
+#hotel {
+    flex-flow: row wrap;
+}
+
+#activite {
+    flex-flow: column wrap;
 }
 
 .etoile {
@@ -166,4 +188,1011 @@ header,
 .footer_align {
     width: 75%;
 }
+/********************************************/
+/****************** DESKTOP *****************/
+/********************************************/
 
+/***** ALL SCREEN *****/
+
+@media screen and (min-width: 960px) {
+
+    #bloc_page {
+        max-width: 1200px;
+    }
+
+    .smart, #hotel_smart, #activite_smart, #recherche span {
+        display: none;
+    }
+
+    header {
+        padding-top: 20px;
+    }
+
+    nav, ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .inscription {
+        margin-right: 10px;
+    }
+
+    #accroche h1 {
+        margin-bottom: 0;
+    } 
+
+    #recherche i {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        flex: 1;
+    }
+
+    .bouton {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        flex: 2;
+    }
+
+    .search {
+        padding: 10px;
+    }
+
+    #filtres, #indic {
+        align-items: center;
+    }
+
+    .fil {
+        border-radius: 40px;
+    }
+
+    .fil p {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .fil span, #indic i {
+        border-radius: 100%;
+    }
+
+    #hebergement {
+        background-color: #F2F2F2;
+    }
+
+    #hebergement, #populaire {
+        border-radius: 25px;
+    }
+
+    .heber img, #activite img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .pop img {
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .act, .act2, .act3, .act4, .act5 {
+        border-radius: 20px;
+    }
+
+}
+
+/***** SMALL *****/
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+    
+    #bloc_page {
+        max-width: 980px;
+    }
+    
+    header img {
+        max-width: 70px;
+        max-height: 35px;
+    }
+    
+    #accroche h1, #hebergement h2, #pop_icone h2, #pop_icone i, #banniere_act h1 {
+        font-size: 17px;
+    }
+
+    .fil, #filtres h2, .propos h2 {
+        font-size: 15px;
+    }
+
+    nav, ul,
+    #accroche p, #recherche i, .bouton, .search,
+    #indic p, #activite h3, .propos p {
+        font-size: 14px;
+    }
+
+    #indic i, .afficher {
+        font-size: 12px;
+    }
+    
+    .heber h3, .pop h3 {
+        font-size: 11px;
+    }
+
+    .heber p, .heber i, .pop p, .pop i {
+        font-size: 10px;
+    }
+
+    .link {
+        padding-left: 25px;
+        padding-right: 25px;   
+    }
+
+    .inscription {
+        margin-left: 25px;
+    }
+
+    #accroche p { 
+        margin-top: 5px;
+    }
+    
+    #recherche {
+        height: 45px;
+        max-width: 320px;
+        margin-bottom: 30px;
+    }
+    
+    .search {
+        width: 150px;
+    }
+
+    .fil {
+        height: 35px;
+    }
+    
+    .fil span {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #filtres h2, .fil {
+        margin-right: 15px;
+    }
+    
+    #indic
+    {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    #indic i {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    #section_hebergement {
+        height: 470px;
+    }
+    
+    #hebergement, #populaire {
+        padding: 30px;
+        padding-top: 10px;
+        padding-bottom: 45px;
+    }
+    
+    #hebergement {
+        margin-right: 25px;
+    }
+    
+    .heber, .pop {
+        margin-bottom: 25px;
+        padding: 3px;
+    }
+    
+    .heber {
+        height: 135px;
+    }
+    
+    .heber img {
+        max-width: 170px;
+    }
+    
+    .heber h3, .heber p, .etoile {
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    .heber h3, .heber p {
+        margin-bottom: 0px;
+    }
+
+    .etoile {
+        margin-bottom: 5px;
+    }
+    
+    .afficher {
+        margin-left: 5px;
+    
+    }
+    
+    #populaire {
+        width: 470px;   
+    }
+
+    .pop {
+        height: 107px;
+        padding-right: 20px;
+    }
+    
+    .pop h3, .pop p {
+        margin-left: 15px;
+    }
+    
+    .pop img {
+        width: 100px;
+    }
+    
+    .pop h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .pop p {
+        margin-top: 4px;
+        margin-bottom: 28px;
+    }
+    
+    .pop .etoile {
+        margin-left: 15px;
+    }
+    
+    #banniere_act {
+        margin-bottom: 50px;
+    }
+    
+    #banniere_act h1 {
+        margin-top: 50px;
+    }
+    
+    #activite {
+        height: 400px;
+    }
+    
+    #activite img {
+        width: 225px;
+    }
+    
+    #activite h3 {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+    .act img {
+        height: 350px;
+    }
+    
+    .act2 img {
+        height: 172px;
+    }
+    
+    .act3 img {
+        height: 100px;
+    }
+    
+    .act4 img {
+        height: 130px;
+    }
+    
+    .act5 img {
+        height: 140px;
+    }
+    
+    #bas_de_page {
+        padding: 45px;
+        height: 120px;
+    }
+}
+
+/****** MEDIUM ******/
+
+@media screen and (min-width: 1200px) {
+    #bloc_page {
+        max-width: 1200px;
+    }
+    
+    header img {
+        max-width: 80px;
+        max-height: 40px;
+    }
+    
+    #accroche h1, #hebergement h2, #pop_icone h2, #pop_icone i, #banniere_act h1 {
+        font-size: 20px;
+    }
+
+    .fil, #filtres h2, .propos h2 {
+        font-size: 18px;
+    }
+
+    nav, ul,
+    #accroche p, #recherche i, .bouton, .search,
+    #indic p, #activite h3, .propos p {
+        font-size: 17px;
+    }
+
+    #indic i, .afficher {
+        font-size: 16px;
+    }
+    
+    .heber h3, .pop h3 {
+        font-size: 15px;
+    }
+
+    .heber p, .pop p {
+        font-size: 14px;
+    }
+
+    .heber i,.pop i {
+        font-size: 12px;
+    }
+
+    .link {
+        padding-left: 35px;
+        padding-right: 35px;   
+    }
+
+    .inscription {
+        margin-left: 35px;
+    }
+
+    #accroche p { 
+        margin-top: 5px;
+    }
+    
+    #recherche {
+        height: 45px;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+    
+    .search {
+        width: 170px;
+    }
+    
+    .fil {
+        height: 40px;
+    }
+    
+    .fil span {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #filtres h2, .fil {
+        margin-right: 20px;
+    }
+    
+    #indic
+    {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #indic i {
+        width: 25px;
+        height: 25px;
+        margin-right: 15px;
+    }
+
+    #section_hebergement {
+        height: 550px;
+    }
+    
+    #hebergement, #populaire {
+        padding: 30px;
+        padding-top: 10px;
+        padding-bottom: 45px;
+    }
+    
+    #hebergement {
+        margin-right: 25px;
+    }
+
+    .heber, .pop {
+        padding: 3px;
+    }
+    
+    .heber {
+        margin-top: 5px;
+        height: 175px;
+        margin-bottom: 15px;
+    }
+    
+    .heber img {
+        max-width: 230px;
+    }
+    
+    .heber h3, .heber p, .etoile {
+        margin-left: 7px;
+    }
+
+    .heber h3 {
+        margin-top: 5px;
+    }
+
+    .heber h3, .heber p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .etoile {
+        margin-bottom: 7px;
+    }
+    
+    .afficher {
+        margin-left: 5px;
+    }
+    
+    #populaire {
+          width: 580px;
+    }
+
+    .pop {
+        height: 130px;
+        padding-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .pop h3, .pop p {
+        margin-left: 15px;
+    }
+    
+    .pop img {
+        width: 110px;
+    }
+    
+    .pop h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .pop p {
+        margin-top: 4px;
+        margin-bottom: 30px;
+    }
+    
+    .pop .etoile {
+        margin-left: 15px;
+    }
+    
+    #banniere_act {
+        margin-bottom: 50px;
+    }
+    
+    #banniere_act h1 {
+        margin-top: 50px;
+    }
+    
+    #activite {
+        height: 400px;
+    }
+    
+    #activite img {
+        width: 280px;
+    }
+    
+    #activite h3 {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+    .act img {
+        height: 350px;
+    }
+    
+    .act2 img {
+        height: 165px;
+    }
+    
+    .act3 img {
+        height: 100px;
+    }
+    
+    .act4 img {
+        height: 130px;
+    }
+    
+    .act5 img {
+        height: 135px;
+    }
+    
+    #bas_de_page {
+        padding: 50px;
+        height: 150px;
+    }
+    
+}
+
+/*********************************************/
+/*********** SMARTPHONE & TABLET *************/
+/*********************************************/
+
+/****** ALL SCREEN ******/
+
+@media screen and (max-width: 960px) {
+    #bloc_page {
+
+        max-width: 100%;
+    }
+    
+    .desk, #hotel, #activite, .bouton {
+        display: none;
+    }
+
+    #menu_smart, .link_smart p,
+    #activite_smart {
+        display: flex;
+    }
+
+    .act_smart {
+        display: grid;
+    }
+
+    header img {
+        max-width: 30%;
+        margin-left: 5px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+    
+    #menu_smart{
+        list-style-type: none;
+        align-items: center;
+    }
+
+    .link_smart {  
+        border-bottom: 4px solid #F2F2F2;
+        width: 50%;
+    }
+    
+    .link_smart p {
+        justify-content: center;
+    }
+
+    #accroche h1 {
+        margin-bottom: 10px;
+        margin-top: 35px;
+        margin-right: 10px;
+    }
+    
+    #recherche, #populaire {
+        max-width: 100%;
+    }
+
+    #recherche i {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #recherche, #recherche span {
+        border-radius: 20px;
+    }
+    
+    .search {
+        border: none;
+        padding: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        flex-grow: 2;
+        min-width: 20%;
+    }
+    
+    #filtres {
+        align-items: flex-start;
+    }
+    
+    #container_fil {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .fil {
+        width: auto;
+    }
+    
+    .fil span, #indic i {
+        border-radius: 100%;
+    }
+    
+    #indic {
+        align-items: baseline;
+    }
+    
+    #section_hebergement, #filtres, #activite_smart, #act_smart, .footer_align {
+        flex-direction: column;
+    }
+    
+    #hebergement {
+        order: 2;
+    }
+
+    #hotel_smart img, .act_smart img {
+        width: 100%;
+    }
+    
+    #hotel_smart img {
+        height: 60%;
+    }
+
+    #hotel_smart h3, #hotel_smart p, .etoile {
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .pop img {
+        width: 42%;
+    }
+    
+    .act_smart img {
+        height: 100%;
+    }
+    
+    .act_smart h3 {
+        align-self: center;
+    }
+}
+
+/****** SMARTPHONE ******/
+
+@media screen and (max-width: 600px) {
+    
+    #accroche h1 {
+        font-size: 22px;
+    }
+
+    .bouton, .search, #recherche span, #filtres h2, .fil span, .propos h2 {
+        font-size: 18px;
+    }
+
+    .link_smart, .inscription, #accroche p, .fil, .afficher {
+        font-size: 16px;
+    }
+
+    .act_smart h3, .propos p {
+        font-size: 15px;
+    }
+
+    #indic i, #indic p {
+        font-size: 14px;
+    }
+
+    #hotel_smart h3 {
+        font-size: 13px;
+    }
+
+    #hotel_smart p, #hotel_smart i, .pop h3 {
+        font-size: 12px;
+    }
+
+    .pop p, .pop i {
+        font-size: 11px;
+    }
+    
+    .link_smart, #recherche, .fil {
+        height: 50px;
+    }
+    
+    #accroche p {
+        margin-top: 10px;
+    }
+    
+    #recherche {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
+    }
+    
+    .pop img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    #recherche i, #recherche span {
+        min-width: 50px;
+    }
+    
+    .heber, .pop {
+        border-radius: 20px;
+    }
+    
+    .fil {
+        border-radius: 50px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .fil p {
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+    
+    .fil span {
+        min-width: 50px;
+        min-height: 50px;
+    }
+    
+    #indic
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #indic i {
+        padding: 5px 10px;
+        margin-right: 15px;
+    }
+    
+    #indic p {
+        margin-right: 5px;
+    }
+    
+    #populaire, #hebergement, #activite_smart {
+        padding: 30px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    #hebergement {
+        margin-bottom: 10px;
+    }
+    
+    .heber, .pop {
+        margin-bottom: 20px;
+        padding: 4px;
+    }
+    
+    #hotel_smart i {
+        margin-bottom: 5px;
+    }
+    
+    #pop_icone {
+        margin-bottom: 10px;
+    }
+    
+    .pop {
+        min-height: 80px;
+        max-height: 200px;
+        padding-right: 20px;
+    }
+    
+    .pop h3, .pop p, .pop .etoile {
+        margin-left: 20px;
+    }
+    
+    .pop h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .pop p {
+        margin-top: 4px;
+    }
+    
+    .pop i {
+        margin-bottom: 5px;
+    }
+    
+    .pop .etoile {
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    #banniere_act {
+        margin-bottom: 20px;
+    }
+    
+    #banniere_act h1 {
+        margin-left: 30px;
+    }
+
+    .act_smart {
+        max-height: 240px;
+        min-height: 100px;
+    }
+    
+    #hotel_smart img, .act_smart img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .act_smart h3 {
+        padding-left: 25px;
+    }
+    
+    .act_smart {
+        margin-bottom: 30px;
+    }
+    
+    #bas_de_page {
+        padding: 40px;
+        margin-top: 5px;
+    }
+
+    .propos {
+        margin-bottom: 20px;
+    }
+    
+}
+
+/****** TABLETS ******/
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    #accroche h1 {
+        font-size: 27px;
+    }
+
+    .pop h3 {
+        font-size: 24px;
+    }
+
+    .bouton, .search, #recherche i, #recherche span, #filtres h2, .fil span, .propos h2 {
+        font-size: 23px;
+    }
+
+    .link_smart, .inscription, #accroche p, .fil, .afficher {
+        font-size: 22px;
+    }
+
+    #indic i, .pop p, .pop i, .act_smart h3, .propos p {
+        font-size: 20px;
+    }
+
+    #indic p {
+        font-size: 19px;
+    }
+
+    #hotel_smart h3 {
+        font-size: 18px;
+    }
+
+    #hotel_smart p, #hotel_smart i {
+        font-size: 17px;
+    }
+    
+    .link_smart, #recherche, .fil, .fil span {
+        height: 65px;
+    }
+    
+    #accroche p {
+        margin-top: 15px;
+    }
+    
+    #recherche {
+        margin-top: 45px;
+        margin-bottom: 35px;
+        border-top: 2px solid #F2F2F2;
+        border-bottom: 2px solid #F2F2F2;
+    }
+    
+    .pop img {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    
+    #recherche i, #recherche span, .fil span {
+        min-width: 65px;
+    }
+    
+    .heber, .pop, .act_smart {
+        border-radius: 30px;
+    }
+    
+    .fil {
+        border-radius: 55px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .fil p {
+        padding-right: 20px;
+        padding-left: 15px;
+    }
+    
+    #indic
+    {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #indic i {
+        padding: 10px 15px;
+        margin-right: 20px;
+    }
+    
+    #indic p {
+        margin-right: 10px;
+    }
+    
+    #populaire, #hebergement, #activite_smart {
+        padding: 35px;
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+    
+    #hebergement {
+        margin-bottom: 15px;
+    }
+    
+    .heber, .pop {
+        margin-bottom: 25px;
+        padding: 6px;
+    }
+    
+    #hotel_smart i {
+        margin-bottom: 7px;
+    }
+    
+    #pop_icone {
+        margin-bottom: 12px;
+    }
+    
+    .pop {
+
+        padding-right: 25px;
+    }
+    
+    .pop h3, .pop p, .pop .etoile {
+        margin-left: 25px;
+    }
+    
+    .pop h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .pop p {
+        margin-top: 6px;
+    }
+    
+    .pop i {
+        margin-bottom: 7px;
+    }
+    
+    .pop .etoile {
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    #banniere_act {
+        margin-bottom: 25px;
+    }
+    
+    #banniere_act h1 {
+        margin-left: 35px;
+    }
+
+    .act_smart {
+        max-height: 340px;
+        min-height: 300px;
+    }
+    
+    #hotel_smart img, .act_smart img {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    .act_smart h3 {
+        padding-left: 30px;
+    }
+    
+    .act_smart {
+        margin-bottom: 35px;
+    }
+    
+    #bas_de_page {
+        padding: 45px;
+        margin-top: 7px;
+    }
+
+    .propos {
+        margin-bottom: 25px;
+    }
+}
