@@ -857,7 +857,7 @@ header, #menu_smart,
         font-size: 16px;
     }
 
-    .act_smart h3, .propos p {
+    .propos p {
         font-size: 15px;
     }
 
@@ -865,7 +865,7 @@ header, #menu_smart,
         font-size: 14px;
     }
 
-    #hotel_smart h3 {
+    #hotel_smart h3, .act_smart h3 {
         font-size: 13px;
     }
 
@@ -1042,7 +1042,7 @@ header, #menu_smart,
         font-size: 22px;
     }
 
-    #indic i, .pop p, .pop i, .act_smart h3, .propos p {
+    #indic i, .pop p, .pop i, .propos p {
         font-size: 20px;
     }
 
@@ -1050,7 +1050,7 @@ header, #menu_smart,
         font-size: 19px;
     }
 
-    #hotel_smart h3 {
+    #hotel_smart h3, .act_smart h3 {
         font-size: 18px;
     }
 
@@ -1136,7 +1136,7 @@ header, #menu_smart,
     }
     
     .pop {
-
+        min-height: 200px;
         padding-right: 25px;
     }
     
