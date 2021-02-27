@@ -17,6 +17,10 @@
    margin: auto;
 }
 
+img {
+    object-fit: cover;
+}
+
 /***** COLORS *****/
 
 .link:hover, .link_smart:hover, .inscription, .fil span, #indic i, .etoile,
@@ -390,7 +394,8 @@ header, #menu_smart,
     }
     
     .heber img {
-        max-width: 170px;
+        width: 170px;
+        height: 90px;
     }
     
     .heber h3, .heber p, .etoile {
@@ -604,7 +609,8 @@ header, #menu_smart,
     }
     
     .heber img {
-        max-width: 230px;
+        width: 230px;
+        height: 120px;
     }
     
     .heber h3, .heber p, .etoile {
@@ -817,10 +823,6 @@ header, #menu_smart,
     #hotel_smart img, .act_smart img {
         width: 100%;
     }
-    
-    #hotel_smart img {
-        height: 60%;
-    }
 
     #hotel_smart h3, #hotel_smart p, .etoile {
         margin-left: 15px;
@@ -829,13 +831,9 @@ header, #menu_smart,
     }
     
     .pop img {
-        width: 42%;
+        width: 45%;
     }
-    
-    .act_smart img {
-        height: 100%;
-    }
-    
+
     .act_smart h3 {
         align-self: center;
     }
@@ -891,10 +889,17 @@ header, #menu_smart,
         border-top: 1px solid #F2F2F2;
         border-bottom: 1px solid #F2F2F2;
     }
+
+    #hotel_smart img {
+        max-height: 200px;
+        min-height: 160px;
+    }
     
     .pop img {
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
+        min-height: 150px;
+        max-height: 200px;
     }
     
     #recherche i, #recherche span {
@@ -960,8 +965,7 @@ header, #menu_smart,
     }
     
     .pop {
-        min-height: 80px;
-        max-height: 200px;
+        height: 150px;
         padding-right: 20px;
     }
     
@@ -983,7 +987,7 @@ header, #menu_smart,
     }
     
     .pop .etoile {
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 5px;
     }
     #banniere_act {
@@ -995,8 +999,13 @@ header, #menu_smart,
     }
 
     .act_smart {
-        max-height: 240px;
-        min-height: 100px;
+        max-height: 200px;
+        min-height: 160px;
+    }
+
+    .act_smart img {
+        max-height: 160px;
+        min-height: 128px;
     }
     
     #hotel_smart img, .act_smart img {
@@ -1072,10 +1081,17 @@ header, #menu_smart,
         border-top: 2px solid #F2F2F2;
         border-bottom: 2px solid #F2F2F2;
     }
+
+    #hotel_smart img {
+        max-height: 250px;
+        min-height: 200px;
+    }
     
     .pop img {
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
+        max-height: 250px;
+        min-height: 200px;
     }
     
     #recherche i, #recherche span, .fil span {
@@ -1137,6 +1153,7 @@ header, #menu_smart,
     
     .pop {
         min-height: 200px;
+        max-height: 250px;
         padding-right: 25px;
     }
     
@@ -1172,6 +1189,11 @@ header, #menu_smart,
     .act_smart {
         max-height: 340px;
         min-height: 300px;
+    }
+
+    .act_smart img {
+        max-height: 272px;
+        min-height: 240px;
     }
     
     #hotel_smart img, .act_smart img {
